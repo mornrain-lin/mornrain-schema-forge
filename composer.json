@@ -1,0 +1,62 @@
+{
+    "name": "mornrain/morn-schema-forge",
+    "description": "Schema.org JSON-LD 构造器：13 个常用类型的链式构造 API，内置校验与 </script> 注入防护。零外部依赖，PHP 7.4+。",
+    "type": "library",
+    "keywords": [
+        "wordpress",
+        "schema.org",
+        "json-ld",
+        "structured-data",
+        "seo",
+        "rich-results",
+        "opengraph"
+    ],
+    "homepage": "https://github.com/MornRain/morn-schema-forge",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MornRain",
+            "homepage": "https://github.com/MornRain",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/MornRain/morn-schema-forge/issues",
+        "source": "https://github.com/MornRain/morn-schema-forge",
+        "security": "https://github.com/MornRain/morn-schema-forge/security/advisories/new",
+        "docs": "https://github.com/MornRain/morn-schema-forge#readme"
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "MornRain\\SchemaForge\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MornRain\\SchemaForge\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "@php tests/run-tests.php",
+        "demo": "@php examples/generate.php",
+        "lint": "@php -l src/Enum.php && @php -l src/Renderer.php && @php -l src/SchemaForge.php && @php -l src/SchemaNode.php && @php -l src/Type.php && @php -l src/Validator.php",
+        "test:phpunit": "phpunit",
+        "lint:style": "phpcs"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0.x-dev"
+        }
+    }
+}
