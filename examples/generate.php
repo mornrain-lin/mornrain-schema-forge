@@ -277,7 +277,7 @@ $app = $forge->softwareApplication()
     ->set('operatingSystem', '跨平台（PHP 7.4+）')
     ->set('softwareVersion', '1.0.0')
     ->set('description', '对象缓存 / 文件缓存 / Transient 多级缓存封装。')
-    ->set('downloadUrl', 'https://github.com/MornRain/morn-cache-forge')
+    ->set('downloadUrl', 'https://github.com/mornrain-lin/morn-cache-forge')
     ->set('license', 'https://opensource.org/licenses/MIT')
     ->set('author', ['@type' => 'Organization', 'name' => 'MornRain'])
     ->aggregateRating(4.5, 32, 5.0);

@@ -70,4 +70,4 @@
   - `strictOnPreflight()` 预检失败时抛异常
 - `examples/generate.php`：16 个场景的可运行示例，含 </script> 注入验证
 
-[1.0.0]: https://github.com/MornRain/morn-schema-forge/releases/tag/v1.0.0
+[1.0.0]: https://github.com/mornrain-lin/morn-schema-forge/releases/tag/v1.0.0

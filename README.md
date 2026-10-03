@@ -41,7 +41,7 @@ MornRain Schema Forge 把这三件事交给库来做：
 ## 安装
 
 ```bash
-composer require mornrain/morn-schema-forge
+composer require mornrain-lin/morn-schema-forge
 ```
 
 或手动引入：
@@ -79,7 +79,7 @@ echo $forge->render($node);
 ```
 
 ```html
-<script type="application/ld+json">{"@context":"https://schema.org","@type":["BlogPosting","Article","CreativeWork"],"headline":"WordPress 前端性能优化实战","description":"从 4.2s 到 1.1s 的完整改造记录。","image":"https://example.com/cover.jpg","datePublished":"2026-10-02T09:30:00+08:00","author":{"@type":"Person","name":"林墨","url":"https://example.com/author/linmo"},"publisher":{"@type":"Organization","name":"MornRain","logo":"https://example.com/logo.png"},"inLanguage":"zh-CN","url":"https://example.com/perf","mainEntityOfPage":{"@type":"WebPage","@id":"https://example.com/perf"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":["BlogPosting","Article","CreativeWork"],"headline":"WordPress 前端性能优化实战","description":"从 4.2s 到 1.1s 的完整改造记录。","image":"https://example.com/cover.jpg","datePublished":"2026-10-02T09:30:00+08:00","author":{"@type":"Person","name":"林墨","url":"https://example.com/author/linmo"},"publisher":{"@type":"Organization","name": "mornrain-lin","logo":"https://example.com/logo.png"},"inLanguage":"zh-CN","url":"https://example.com/perf","mainEntityOfPage":{"@type":"WebPage","@id":"https://example.com/perf"}}</script>
 ```
 
 ### 带评分与价格的产品
@@ -411,7 +411,7 @@ composer lint:style    # PSR-12 代码风格
 
 ## License
 
-MIT License — Copyright (c) 2026 MornRain
+MIT License — Copyright (c) 2026 mornrain-lin
 
 详见 [LICENSE](LICENSE)。
 

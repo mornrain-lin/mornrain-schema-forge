@@ -1,5 +1,5 @@
 {
-    "name": "mornrain/morn-schema-forge",
+    "name": "mornrain-lin/morn-schema-forge",
     "description": "Schema.org JSON-LD 构造器：13 个常用类型的链式构造 API，内置校验与 </script> 注入防护。零外部依赖，PHP 7.4+。",
     "type": "library",
     "keywords": [
@@ -11,20 +11,20 @@
         "rich-results",
         "opengraph"
     ],
-    "homepage": "https://github.com/MornRain/morn-schema-forge",
+    "homepage": "https://github.com/mornrain-lin/morn-schema-forge",
     "license": "MIT",
     "authors": [
         {
-            "name": "MornRain",
-            "homepage": "https://github.com/MornRain",
+            "name": "mornrain-lin",
+            "homepage": "https://github.com/mornrain-lin",
             "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/MornRain/morn-schema-forge/issues",
-        "source": "https://github.com/MornRain/morn-schema-forge",
-        "security": "https://github.com/MornRain/morn-schema-forge/security/advisories/new",
-        "docs": "https://github.com/MornRain/morn-schema-forge#readme"
+        "issues": "https://github.com/mornrain-lin/morn-schema-forge/issues",
+        "source": "https://github.com/mornrain-lin/morn-schema-forge",
+        "security": "https://github.com/mornrain-lin/morn-schema-forge/security/advisories/new",
+        "docs": "https://github.com/mornrain-lin/morn-schema-forge#readme"
     },
     "require": {
         "php": ">=7.4",
