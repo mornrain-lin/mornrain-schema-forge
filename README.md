@@ -1,3 +1,5 @@
+![morn-schema-forge](assets/preview.png)
+
 # MornRain Schema Forge
 
 Schema.org JSON-LD 结构化数据构造器。13 个常用类型的链式构造 API，内置校验与 `</script>` 注入防护。
